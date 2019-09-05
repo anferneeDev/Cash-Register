@@ -5,7 +5,8 @@
         Dim sf As New Form2
         If sf.ShowDialog(Me) = Windows.Forms.DialogResult.OK Then
             'This code Close the form when form1 is open'
-      'pP'
+            'pP'
+            '2'
         End If
         Me.Close()
     End Sub
