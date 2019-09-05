@@ -1,16 +1,14 @@
 ﻿Public Class Form2
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
-        If sender Is back Then
-            Form1.Show()
-
-        ElseIf sender Is back Then
-            Me.Hide()
+        Me.Hide() 'Hide form but not close'
+        Dim sf As New Form1
+        If sf.ShowDialog(Me) = Windows.Forms.DialogResult.OK Then
         End If
-
+        Me.Close() 'Close the form '
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()
-        'Close tformkkkkkkkkss'
+        'Close tformkkkkkkkskss'
     End Sub
 End Class
