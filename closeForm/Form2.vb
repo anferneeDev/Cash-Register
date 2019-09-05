@@ -10,6 +10,6 @@
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()
         'Close tformkkkkkkkskss'
-        'averr'
+        'Esto se jodio'
     End Sub
 End Class
