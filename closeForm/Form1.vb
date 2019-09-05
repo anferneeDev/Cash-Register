@@ -4,7 +4,7 @@
 
         Dim sf As New Form2
         If sf.ShowDialog(Me) = Windows.Forms.DialogResult.OK Then
-            ' ... do some processing in here ...fffff
+            'This code Close the form when form1 is open'
         End If
         Me.Close()
     End Sub
