@@ -1,6 +1,11 @@
 ﻿Public Class Form2
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
-        Form1.Show()
+        If sender Is back Then
+            Form1.Show()
+
+        ElseIf sender Is back Then
+            Me.Hide()
+        End If
 
     End Sub
 
