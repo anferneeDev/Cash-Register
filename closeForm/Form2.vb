@@ -9,6 +9,6 @@
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()
-        'Close tformkkkkkkkkss'
+        'Close tformkkkkkkkskss'
     End Sub
 End Class
