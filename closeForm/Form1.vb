@@ -7,6 +7,7 @@
             'This code Close the form when form1 is open'
             'pP'
             '2'
+            '3'
         End If
         Me.Close()
     End Sub
