@@ -27,19 +27,21 @@ Partial Class Form1
         '
         'open
         '
-        Me.open.Location = New System.Drawing.Point(124, 94)
+        Me.open.Location = New System.Drawing.Point(311, 53)
+        Me.open.Margin = New System.Windows.Forms.Padding(2)
         Me.open.Name = "open"
-        Me.open.Size = New System.Drawing.Size(131, 56)
+        Me.open.Size = New System.Drawing.Size(66, 29)
         Me.open.TabIndex = 0
         Me.open.Text = "open"
         Me.open.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(784, 561)
         Me.Controls.Add(Me.open)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"

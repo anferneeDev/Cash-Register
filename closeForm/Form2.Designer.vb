@@ -28,29 +28,32 @@ Partial Class Form2
         '
         'back
         '
-        Me.back.Location = New System.Drawing.Point(191, 95)
+        Me.back.Location = New System.Drawing.Point(96, 49)
+        Me.back.Margin = New System.Windows.Forms.Padding(2)
         Me.back.Name = "back"
-        Me.back.Size = New System.Drawing.Size(143, 67)
+        Me.back.Size = New System.Drawing.Size(72, 35)
         Me.back.TabIndex = 0
         Me.back.Text = "Back"
         Me.back.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(191, 234)
+        Me.btnClose.Location = New System.Drawing.Point(96, 122)
+        Me.btnClose.Margin = New System.Windows.Forms.Padding(2)
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(143, 58)
+        Me.btnClose.Size = New System.Drawing.Size(72, 30)
         Me.btnClose.TabIndex = 1
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(784, 561)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.back)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
