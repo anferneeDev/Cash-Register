@@ -7,7 +7,6 @@
 
         If f2.ShowDialog(Me) = Windows.Forms.DialogResult.OK Then
             'This code Close the form when form1 is open'
-            'f1.Hide();'
 
         End If
         Me.Close()
