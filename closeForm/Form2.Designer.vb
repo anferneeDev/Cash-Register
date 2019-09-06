@@ -52,6 +52,7 @@ Partial Class Form2
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.back)
         Me.Name = "Form2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         Me.ResumeLayout(False)
 
