@@ -12,7 +12,7 @@
 
         End If
 
-        Me.Close() 'Close the formsss '
+        Me.Close() 'Close the formsssss '
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
