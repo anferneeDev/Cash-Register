@@ -29,7 +29,7 @@ Partial Class Form1
         '
         'open
         '
-        Me.open.Location = New System.Drawing.Point(65, 91)
+        Me.open.Location = New System.Drawing.Point(334, 126)
         Me.open.Margin = New System.Windows.Forms.Padding(2)
         Me.open.Name = "open"
         Me.open.Size = New System.Drawing.Size(101, 42)
@@ -39,20 +39,21 @@ Partial Class Form1
         '
         'Button3
         '
+        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button3.AutoSize = True
         Me.Button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Button3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Button3.Location = New System.Drawing.Point(0, 538)
+        Me.Button3.Location = New System.Drawing.Point(-320, 538)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(784, 23)
+        Me.Button3.Size = New System.Drawing.Size(54, 23)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Button3"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(527, 106)
+        Me.Button1.AutoSize = True
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.Location = New System.Drawing.Point(324, 212)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(169, 61)
         Me.Button1.TabIndex = 4
@@ -64,12 +65,14 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(177, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(784, 561)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.open)
+        Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(177, Byte), Integer))
         Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.MinimumSize = New System.Drawing.Size(800, 600)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
