@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class createAccount
     Private Sub open_Click(sender As Object, e As EventArgs) Handles open.Click
 
         Me.Hide()

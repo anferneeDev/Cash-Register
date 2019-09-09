@@ -1,7 +1,7 @@
 ﻿Public Class Form2
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         Me.Hide() 'Hide form but not close'
-        Dim f1 As New Form1
+        Dim f1 As New createAccount
         Dim f2 As New Form2
 
         ' Size the form to be 300 pixels in height and width.
